@@ -234,7 +234,7 @@ public class BaseClass {
 		
 		
 		
-		System.out.println("im a develop method");
+		System.out.println("im a master method");
 		
 		
 		
