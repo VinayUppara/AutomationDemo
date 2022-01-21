@@ -232,7 +232,10 @@ public class BaseClass {
 	
 	public void developMethod() {
 		
-		System.out.println("master changes");
+		
+		
+		System.out.println("develop");
+		
 		
 		
 	}
