@@ -21,6 +21,19 @@ public WebDriver driver;
 		PageFactory.initElements(driver, this);
 	}
 	
+	
+	@FindBy(xpath="(//span[contains(text(),'Sign in')])[1]/..")
+	public WebElement signIn;
+	
+	@FindBy(xpath="(//div[@class='promotion-postcard__large'])[1]")
+	public WebElement flights;
+	
+	@FindBy(xpath="(//span[text()='Show prices']/..)[1]")
+	public WebElement flightSearch;
+	
+	@FindBy(xpath="//div[@id='username-note']")
+	public WebElement usernameError;
+	
 	@FindBy(id="user-name")
 	public WebElement userName;
 	

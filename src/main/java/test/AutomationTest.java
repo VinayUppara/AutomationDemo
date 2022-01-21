@@ -4,6 +4,10 @@ import java.io.IOException;
 import java.lang.reflect.Method;
 import java.util.HashMap;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.By;
+import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -14,39 +18,61 @@ public class AutomationTest extends BaseClass{
 
 	HomePage home = new HomePage(driver);
 
-	
+	private static final Logger log = LogManager.getLogger(AutomationTest.class);
 	
 	
 	@Test(priority=0,enabled=true)
 	public void addProducts() throws Exception {
+		
+		extent = reporter.createTest("addProducts");
 
 		driver.get(getProperty("url"));
+		
+		extent.info("navigated to website"+ driver.getTitle());
+		
+		log.info("Navigated to site "+ driver.getTitle());
+		
+		log.fatal("Navigated to site "+ driver.getTitle());
+		
+		log.warn("Navigated to site \"+ driver.getTitle()");
 
 		driver.manage().window().maximize();
 
-		setValue(home.userName,getProperty("username"));
+		//scrollToAnElement(home.flights);
+		
+		clickElement(home.signIn);
+		
+		driver.findElement(By.name("username")).sendKeys("vinay.aftermath@gmail.com");
+		
+		driver.findElement(By.xpath("//button[@type='submit']")).click();
+		
+		waitForElementAndSendkeys(home.password,"Raptor@123");
+		
+		//driver.findElement(By.name("password")).sendKeys("Raptor@123");
+		/*
+		 * clickElement(home.login);
+		 * 
+		 * clickListElements(home.addToCart);
+		 * 
+		 * Thread.sleep(2000);
+		 * 
+		 * clickElement(home.cart);
+		 * 
+		 * printTextFromElements(home.productNames);
+		 * 
+		 * clickListElements(home.removeProducts);
+		 */	}
 
-		setValue(home.password,"test");
-
-		clickElement(home.login);
-
-		clickListElements(home.addToCart);
-
-		Thread.sleep(2000);
-
-		clickElement(home.cart);
-
-		printTextFromElements(home.productNames);
-
-		clickListElements(home.removeProducts);
-	}
-
-	@Test(priority=1,enabled=true)
+	@Test(priority=1)
 	public void sortProducts() throws Exception {
-
+		
+		extent = reporter.createTest("sortProducts");
+		
 		driver.get(getProperty("url"));
 
 		driver.manage().window().maximize();
+		
+		extent.info("sample code");
 
 		setValue(home.userName,getProperty("username"));
 
@@ -62,8 +88,10 @@ public class AutomationTest extends BaseClass{
 
 	}
 
-	@Test(priority=2,enabled=false)
+	@Test(priority=2)
 	public void verifySocialLinks() throws Exception {
+		
+		extent = reporter.createTest("verifySocailLinks");
 		
 		driver.get(getProperty("url"));
 
@@ -91,7 +119,7 @@ public class AutomationTest extends BaseClass{
 		return data;
 	}
 	
-	@Test(dataProvider="testData")
+	@Test(dataProvider="testData",enabled=false)
 	public void login1(HashMap<String,String> data) throws Exception 
 	{
 		
@@ -107,7 +135,7 @@ public class AutomationTest extends BaseClass{
 			
 	}
 	
-	@Test(dataProvider="testData")
+	@Test(dataProvider="testData",enabled=false)
 	public void login2(HashMap<String,String> data) throws Exception {
 		driver.get(getProperty("url"));
 
@@ -120,7 +148,7 @@ public class AutomationTest extends BaseClass{
 		Thread.sleep(2000);
 	}
 	
-	@Test(dataProvider="testData")
+	@Test(dataProvider="testData",enabled=false)
 	public void login3(HashMap<String,String> data) throws Exception {
 		
 		driver.get(getProperty("url"));

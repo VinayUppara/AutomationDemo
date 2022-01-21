@@ -1,0 +1,57 @@
+[DEBUG] 2022-01-19 16:36:46.855 [main] AutomationTest - Navigated to site Booking.com | Official site | The best hotels, flights, car rentals & accommodations
+[DEBUG] 2022-01-19 16:39:53.050 [main] AutomationTest - Navigated to site Booking.com | Official site | The best hotels, flights, car rentals & accommodations
+[INFO ] 2022-01-19 16:39:53.055 [main] AutomationTest - Navigated to site Booking.com | Official site | The best hotels, flights, car rentals & accommodations
+[FATAL] 2022-01-19 16:39:53.060 [main] AutomationTest - Navigated to site Booking.com | Official site | The best hotels, flights, car rentals & accommodations
+[INFO ] 2022-01-19 16:44:08.157 [main] AutomationTest - Navigated to site Booking.com | Official site | The best hotels, flights, car rentals & accommodations
+[FATAL] 2022-01-19 16:44:08.170 [main] AutomationTest - Navigated to site Booking.com | Official site | The best hotels, flights, car rentals & accommodations
+[INFO ] 2022-01-19 16:45:28.348 [main] AutomationTest - Navigated to site Booking.com | Official site | The best hotels, flights, car rentals & accommodations
+[FATAL] 2022-01-19 16:45:28.357 [main] AutomationTest - Navigated to site Booking.com | Official site | The best hotels, flights, car rentals & accommodations
+[WARN ] 2022-01-19 16:45:28.357 [main] AutomationTest - Navigated to site "+ driver.getTitle()
+[DEBUG] 2022-01-19 16:46:40.662 [main] AutomationTest - Navigated to site Booking.com | Official site | The best hotels, flights, car rentals & accommodations
+[INFO ] 2022-01-19 16:46:40.668 [main] AutomationTest - Navigated to site Booking.com | Official site | The best hotels, flights, car rentals & accommodations
+[FATAL] 2022-01-19 16:46:40.679 [main] AutomationTest - Navigated to site Booking.com | Official site | The best hotels, flights, car rentals & accommodations
+[WARN ] 2022-01-19 16:46:40.679 [main] AutomationTest - Navigated to site "+ driver.getTitle()
+[DEBUG] 2022-01-19 16:47:16.541 [main] AutomationTest - Navigated to site Booking.com | Official site | The best hotels, flights, car rentals & accommodations
+[INFO ] 2022-01-19 16:47:16.548 [main] AutomationTest - Navigated to site Booking.com | Official site | The best hotels, flights, car rentals & accommodations
+[FATAL] 2022-01-19 16:47:16.556 [main] AutomationTest - Navigated to site Booking.com | Official site | The best hotels, flights, car rentals & accommodations
+[WARN ] 2022-01-19 16:47:16.556 [main] AutomationTest - Navigated to site "+ driver.getTitle()
+[DEBUG] 2022-01-19 16:48:56.902 [main] AutomationTest - Navigated to site Booking.com | Official site | The best hotels, flights, car rentals & accommodations
+[INFO ] 2022-01-19 16:48:56.912 [main] AutomationTest - Navigated to site Booking.com | Official site | The best hotels, flights, car rentals & accommodations
+[FATAL] 2022-01-19 16:48:56.920 [main] AutomationTest - Navigated to site Booking.com | Official site | The best hotels, flights, car rentals & accommodations
+[WARN ] 2022-01-19 16:48:56.920 [main] AutomationTest - Navigated to site "+ driver.getTitle()
+[DEBUG] 2022-01-19 16:49:45.728 [main] AutomationTest - Navigated to site Booking.com | Official site | The best hotels, flights, car rentals & accommodations
+[INFO ] 2022-01-19 16:49:45.738 [main] AutomationTest - Navigated to site Booking.com | Official site | The best hotels, flights, car rentals & accommodations
+[FATAL] 2022-01-19 16:49:45.744 [main] AutomationTest - Navigated to site Booking.com | Official site | The best hotels, flights, car rentals & accommodations
+[WARN ] 2022-01-19 16:49:45.744 [main] AutomationTest - Navigated to site "+ driver.getTitle()
+[DEBUG] 2022-01-19 16:50:22.276 [main] AutomationTest - Navigated to site Booking.com | Official site | The best hotels, flights, car rentals & accommodations
+[INFO ] 2022-01-19 16:50:22.285 [main] AutomationTest - Navigated to site Booking.com | Official site | The best hotels, flights, car rentals & accommodations
+[FATAL] 2022-01-19 16:50:22.290 [main] AutomationTest - Navigated to site Booking.com | Official site | The best hotels, flights, car rentals & accommodations
+[WARN ] 2022-01-19 16:50:22.290 [main] AutomationTest - Navigated to site "+ driver.getTitle()
+[DEBUG] 2022-01-19 16:51:19.975 [main] AutomationTest - Navigated to site Booking.com | Official site | The best hotels, flights, car rentals & accommodations
+[INFO ] 2022-01-19 16:51:19.984 [main] AutomationTest - Navigated to site Booking.com | Official site | The best hotels, flights, car rentals & accommodations
+[FATAL] 2022-01-19 16:51:19.990 [main] AutomationTest - Navigated to site Booking.com | Official site | The best hotels, flights, car rentals & accommodations
+[WARN ] 2022-01-19 16:51:19.990 [main] AutomationTest - Navigated to site "+ driver.getTitle()
+[INFO ] 2022-01-20 15:34:06.602 [main] AutomationTest - Navigated to site Booking.com | Official site | The best hotels, flights, car rentals & accommodations
+[FATAL] 2022-01-20 15:34:06.619 [main] AutomationTest - Navigated to site Booking.com | Official site | The best hotels, flights, car rentals & accommodations
+[WARN ] 2022-01-20 15:34:06.619 [main] AutomationTest - Navigated to site "+ driver.getTitle()
+[INFO ] 2022-01-20 15:35:29.873 [main] AutomationTest - Navigated to site Booking.com | Official site | The best hotels, flights, car rentals & accommodations
+[FATAL] 2022-01-20 15:35:29.903 [main] AutomationTest - Navigated to site Booking.com | Official site | The best hotels, flights, car rentals & accommodations
+[WARN ] 2022-01-20 15:35:29.904 [main] AutomationTest - Navigated to site "+ driver.getTitle()
+[INFO ] 2022-01-20 15:36:31.768 [main] AutomationTest - Navigated to site Booking.com | Official site | The best hotels, flights, car rentals & accommodations
+[FATAL] 2022-01-20 15:36:31.783 [main] AutomationTest - Navigated to site Booking.com | Official site | The best hotels, flights, car rentals & accommodations
+[WARN ] 2022-01-20 15:36:31.783 [main] AutomationTest - Navigated to site "+ driver.getTitle()
+[INFO ] 2022-01-20 15:38:14.481 [main] AutomationTest - Navigated to site Booking.com | Official site | The best hotels, flights, car rentals & accommodations
+[FATAL] 2022-01-20 15:38:14.496 [main] AutomationTest - Navigated to site Booking.com | Official site | The best hotels, flights, car rentals & accommodations
+[WARN ] 2022-01-20 15:38:14.496 [main] AutomationTest - Navigated to site "+ driver.getTitle()
+[INFO ] 2022-01-20 15:39:25.958 [main] AutomationTest - Navigated to site Booking.com | Official site | The best hotels, flights, car rentals & accommodations
+[FATAL] 2022-01-20 15:39:25.973 [main] AutomationTest - Navigated to site Booking.com | Official site | The best hotels, flights, car rentals & accommodations
+[WARN ] 2022-01-20 15:39:25.974 [main] AutomationTest - Navigated to site "+ driver.getTitle()
+[INFO ] 2022-01-20 15:41:12.506 [main] AutomationTest - Navigated to site Booking.com | Official site | The best hotels, flights, car rentals & accommodations
+[FATAL] 2022-01-20 15:41:12.519 [main] AutomationTest - Navigated to site Booking.com | Official site | The best hotels, flights, car rentals & accommodations
+[WARN ] 2022-01-20 15:41:12.519 [main] AutomationTest - Navigated to site "+ driver.getTitle()
+[INFO ] 2022-01-20 15:44:45.432 [main] AutomationTest - Navigated to site Booking.com | Official site | The best hotels, flights, car rentals & accommodations
+[FATAL] 2022-01-20 15:44:45.461 [main] AutomationTest - Navigated to site Booking.com | Official site | The best hotels, flights, car rentals & accommodations
+[WARN ] 2022-01-20 15:44:45.462 [main] AutomationTest - Navigated to site "+ driver.getTitle()
+[INFO ] 2022-01-20 15:46:48.051 [main] AutomationTest - Navigated to site Booking.com | Official site | The best hotels, flights, car rentals & accommodations
+[FATAL] 2022-01-20 15:46:48.071 [main] AutomationTest - Navigated to site Booking.com | Official site | The best hotels, flights, car rentals & accommodations
+[WARN ] 2022-01-20 15:46:48.071 [main] AutomationTest - Navigated to site "+ driver.getTitle()
