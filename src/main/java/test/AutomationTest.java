@@ -22,7 +22,7 @@ public class AutomationTest extends BaseClass{
 	
 	
 	@Test(priority=0,enabled=true)
-	public void addProducts() throws Exception {
+	public void addProducts()  {
 		
 		extent = reporter.createTest("addProducts");
 
@@ -30,17 +30,13 @@ public class AutomationTest extends BaseClass{
 		
 		extent.info("navigated to website"+ driver.getTitle());
 		
-		log.info("Navigated to site "+ driver.getTitle());
-		
-		log.fatal("Navigated to site "+ driver.getTitle());
-		
-		log.warn("Navigated to site \"+ driver.getTitle()");
+		log.info("navigated to website"+ driver.getTitle());
 
 		driver.manage().window().maximize();
 
 		//scrollToAnElement(home.flights);
 		
-		clickElement(home.signIn);
+		jsClickElement(home.signIn);
 		
 		driver.findElement(By.name("username")).sendKeys("vinay.aftermath@gmail.com");
 		
@@ -69,6 +65,8 @@ public class AutomationTest extends BaseClass{
 		extent = reporter.createTest("sortProducts");
 		
 		driver.get(getProperty("url"));
+		
+		log.info("navigated to website"+ driver.getTitle());
 
 		driver.manage().window().maximize();
 		
@@ -94,6 +92,8 @@ public class AutomationTest extends BaseClass{
 		extent = reporter.createTest("verifySocailLinks");
 		
 		driver.get(getProperty("url"));
+		
+		log.info("navigated to website"+ driver.getTitle());
 
 		driver.manage().window().maximize();
 

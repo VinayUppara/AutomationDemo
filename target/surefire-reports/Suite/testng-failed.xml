@@ -5,6 +5,9 @@
     <classes>
       <class name="test.AutomationTest">
         <methods>
+          <include name="verifySocialLinks"/>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
           <include name="closeDriver"/>
           <include name="sortProducts"/>
         </methods>

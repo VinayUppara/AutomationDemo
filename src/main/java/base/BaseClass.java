@@ -81,25 +81,36 @@ public class BaseClass {
 
 
 
-	public String getProperty(String key) throws Exception {
-
-
+	public String getProperty(String key)  {
+		
 		Properties prop = new Properties();
+		
+		try {
+
 
 		File propertiesFile = new File("src/test/resources/data.properties");//to locate properties code
 
 		prop.load(new FileInputStream(propertiesFile));
 
+		}
+			
+		catch(Exception e) {
+			
+			extent.info("Couldnt load the properties file");
+		}
+		
 		return prop.getProperty(key);
-
-		//return value;
-
 	}
 
 	public void clickElement(WebElement ele) {
 
 		ele.click();
 
+	}
+	
+	public void jsClickElement(WebElement e) {
+		
+		((JavascriptExecutor)driver).executeScript("arguments[0].click();",e);
 	}
 
 	public void setValue(WebElement ele, String value) {
@@ -216,7 +227,7 @@ public class BaseClass {
 
 			Screenshot.takeScreenshot(driver, "FAILURE", result.getName());
 			
-			extent.fail("Method failed"+result.getName());
+			extent.fail("Method failed "+result.getName());
 		} 
 		else 
 		{

@@ -55,3 +55,13 @@
 [INFO ] 2022-01-20 15:46:48.051 [main] AutomationTest - Navigated to site Booking.com | Official site | The best hotels, flights, car rentals & accommodations
 [FATAL] 2022-01-20 15:46:48.071 [main] AutomationTest - Navigated to site Booking.com | Official site | The best hotels, flights, car rentals & accommodations
 [WARN ] 2022-01-20 15:46:48.071 [main] AutomationTest - Navigated to site "+ driver.getTitle()
+[INFO ] 2022-01-24 15:03:11.774 [main] AutomationTest - navigated to websiteBooking.com | Official site | The best hotels, flights, car rentals & accommodations
+[INFO ] 2022-01-24 15:03:18.645 [main] AutomationTest - navigated to websiteBooking.com | Official site | The best hotels, flights, car rentals & accommodations
+[INFO ] 2022-01-24 15:03:21.207 [main] AutomationTest - navigated to websiteBooking.com | Official site | The best hotels, flights, car rentals & accommodations
+[INFO ] 2022-01-24 15:06:49.869 [main] AutomationTest - navigated to websiteBooking.com | Official site | The best hotels, flights, car rentals & accommodations
+[INFO ] 2022-01-24 15:06:56.284 [main] AutomationTest - navigated to websiteBooking.com | Official site | The best hotels, flights, car rentals & accommodations
+[INFO ] 2022-01-24 15:06:58.747 [main] AutomationTest - navigated to websiteBooking.com | Official site | The best hotels, flights, car rentals & accommodations
+[INFO ] 2022-01-24 16:47:04.762 [main] AutomationTest - navigated to websiteBooking.com | Official site | The best hotels, flights, car rentals & accommodations
+[INFO ] 2022-01-24 16:47:11.430 [main] AutomationTest - navigated to websiteBooking.com | Official site | The best hotels, flights, car rentals & accommodations
+[INFO ] 2022-01-24 16:47:13.845 [main] AutomationTest - navigated to websiteBooking.com | Official site | The best hotels, flights, car rentals & accommodations
+[INFO ] 2022-01-24 16:47:35.513 [main] AutomationTest - navigated to websiteBooking.com | Official site | The best hotels, flights, car rentals & accommodations
